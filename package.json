@@ -1,0 +1,25 @@
+{
+  "name": "k10-hkt1-nft-website",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamha79/k10-hkt1-nft-website.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamha79/k10-hkt1-nft-website/issues"
+  },
+  "homepage": "https://github.com/lamha79/k10-hkt1-nft-website#readme",
+  "scripts": {
+    "start": "cd frontend && npm run start",
+    "deploy": "cd contract && npm run deploy",
+    "build": "npm run build:contract && npm run build:web",
+    "build:web": "cd frontend && npm run build",
+    "build:contract": "cd contract && npm run build",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "cd contract && npm test",
+    "test:integration": "cd integration-tests && npm test -- -- \"./contract/build/contract.wasm\"",
+    "postinstall": "cd frontend && npm install && cd .. && cd contract && npm install"
+  }
+}

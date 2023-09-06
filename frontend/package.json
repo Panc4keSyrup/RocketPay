@@ -1,0 +1,83 @@
+{
+  "name": "K10-NFT-Marketplace",
+  "version": "0.1.0",
+  "proxy": "https://sandbox.nganluong.vn/",
+  "homepage": "http://icheckcoin.com/",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@near-wallet-selector/core": "^7.0.0",
+    "@near-wallet-selector/math-wallet": "^7.0.0",
+    "@near-wallet-selector/meteor-wallet": "^7.0.0",
+    "@near-wallet-selector/modal-ui": "^7.0.0",
+    "@near-wallet-selector/my-near-wallet": "^7.0.0",
+    "@near-wallet-selector/near-wallet": "^7.2.0",
+    "@near-wallet-selector/nightly": "^7.0.0",
+    "@near-wallet-selector/nightly-connect": "^7.0.0",
+    "@near-wallet-selector/sender": "^7.0.0",
+    "@near-wallet-selector/wallet-connect": "^7.0.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^1.3.3",
+    "bootstrap": "^5.1.3",
+    "buffer": "^6.0.3",
+    "crypto-js": "^4.1.1",
+    "http-proxy-middleware": "^2.0.6",
+    "md5-hash": "^1.0.1",
+    "near-api-js": "^0.44.2",
+    "package.json": "^0.0.0",
+    "react": "^17.0.2",
+    "react-credit-cards-2": "^0.9.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.1",
+    "reactstrap": "^9.0.1",
+    "remixicon": "^2.5.0",
+    "sax": ">=0.6.0",
+    "schedule": "^0.5.0",
+    "stream": "^0.0.2",
+    "timers": "^0.1.1",
+    "web-vitals": "^1.1.2",
+    "xml2js": "^0.4.23",
+    "xmlbuilder": "~11.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "coffee-script": ">=1.10.0",
+    "coveralls": "^3.0.1",
+    "diff": ">=1.0.8",
+    "docco": ">=0.6.2",
+    "nyc": ">=2.2.1",
+    "react-gitignore": "^1.0.12",
+    "zap": ">=0.2.9"
+  },
+  "browser": {
+    "stream": false
+  }
+}

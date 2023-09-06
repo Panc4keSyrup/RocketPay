@@ -1,0 +1,121 @@
+.modal__wrapper {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  height: 100%; 
+  width: 100%;
+
+  background: #14141f8a;
+  z-index: 4444444;
+}
+
+.single__modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background: #343444 ;
+  border-radius: 5px;
+  padding: 25px;
+  z-index: 5555555;
+  cursor: pointer;
+}
+
+.single__modal h6 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.single__modal .money {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.input__item input {
+  width: 100%;
+  border: 1px solid rgba(221, 221, 221, 0.274);
+  background: transparent;
+  color: #fff;
+  padding: 9px 25px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+}
+
+.input__item h6 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.place__bid-btn {
+  padding: 7px 25px;
+  border: none;
+  outline: none;
+  width: 120px;
+  margin: auto;
+  background: #5142fc;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 15px;
+  text-overflow: ellipsis;
+}
+
+.close__modal {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  z-index: 6666666;
+}
+
+.close__modal i {
+  padding: 10px;
+  background: #5142fc;
+  color: #fff;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  .single__modal {
+    width: 250px;
+    height: auto;
+  }
+
+  .single__modal h6 {
+    font-size: 0.7rem;
+  }
+  .single__modal p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+
+  .money {
+    font-size: 0.8rem !important;
+  }
+
+  .input__item h6 {
+    font-size: 0.7rem;
+  }
+
+  .input__item input {
+    padding: 5px 20px !important;
+    font-size: 0.7rem;
+  }
+}
+
+.App-order {
+  margin: 0 auto;
+  padding-top: 100px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.input__item mb-4{
+  padding: 3px 15px !important;
+  font-size: 0.7rem;
+  width: 175px
+}
